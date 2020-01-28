@@ -124,7 +124,9 @@ class LabelTool:
 
     def loadDir(self, dbg=False):
 
-        self.imageDir = os.path.join("../data/horse_dataset/images", str(self.imgclass))
+        self.imageDir = os.path.join(
+            "../data/horse_dataset/need_boxing", str(self.imgclass)
+        )
         print(self.imageDir)
         self.imageList = glob.glob(os.path.join(self.imageDir, "*.jpg"))
         self.imageList = sorted(self.imageList)

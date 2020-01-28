@@ -2,6 +2,8 @@
 #   JPG/PNG file containing the horse pictures
 #   Text file containg info such as the file name, image resolution, and coordinates of the box surrounding the horse
 
+# This file still needs lots of work
+
 import os
 import numpy as np
 import torch

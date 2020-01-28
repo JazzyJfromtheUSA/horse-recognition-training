@@ -1,8 +1,0 @@
-../data/horse_dataset/images/smokey_horse_duchess.jpg
-../data/horse_dataset/images/190306195126_01_horse_deaths_santa_anita_park_exlarge_169.jpg
-../data/horse_dataset/images/horse_what_horse_ownership_teaches_us_blogsep219.jpg
-../data/horse_dataset/images/feral_horse_and_foal_walk_along_the_beach_on_vieques_island_off_puerto_rico.jpg
-../data/horse_dataset/images/blog_wild_horse_proposal_071919_main.jpg
-../data/horse_dataset/images/Quarter_horse_and_colt_TAMU_09.10.19.jpg
-../data/horse_dataset/images/Magic_Mittens_2015.jpg
-../data/horse_dataset/images/Cekka_Posing_1024x683.jpg
