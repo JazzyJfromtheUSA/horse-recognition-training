@@ -21,7 +21,10 @@ for file_name in text_files:
 for file_name in jpg_files:
     images.append(file_name.replace(".jpg", ""))
 
-
 for image_file in images:
     if image_file in labels:
-        print("found a match")
+        # we found an image we can move
+        current_location = dataset_directory + "/need_boxing/1/" + image_file + ".jpg"
+        new_location = dataset_directory + "/images/" + image_file + ".jpg"
+        shutil.move(current_location, new_location)
+
