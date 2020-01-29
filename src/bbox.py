@@ -208,15 +208,16 @@ class LabelTool:
                 )
 
     def saveImage(self):
-        box = self.bboxList[0]
-        imgw = self.img.size[0]
-        imgh = self.img.size[1]
-        x = (box[0] + box[2]) / 2 / imgw
-        y = (box[1] + box[3]) / 2 / imgh
-        w = (box[2] - box[0]) / imgw
-        h = (box[3] - box[1]) / imgh
-        with open(self.labelfilename, "w") as f:
-            f.write("%d %f %f %f %f" % (self.imgclass, x, y, w, h))
+        # box = self.bboxList[0]
+        for box in self.bboxList:
+            imgw = self.img.size[0]
+            imgh = self.img.size[1]
+            x = (box[0] + box[2]) / 2 / imgw
+            y = (box[1] + box[3]) / 2 / imgh
+            w = (box[2] - box[0]) / imgw
+            h = (box[3] - box[1]) / imgh
+            with open(self.labelfilename, "a") as f:
+                f.write("%d %f %f %f %f\n" % (self.imgclass, x, y, w, h))
         # print ('Image No. %d saved' %(self.cur))
 
     def mouseClick(self, event):
