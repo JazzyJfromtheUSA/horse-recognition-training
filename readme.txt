@@ -32,3 +32,6 @@ Sturcture of each data text file - We can change this if we want pretty easily
 1. First number is the object class. It shold match the folders that contain the images/txt files
 2. Next is x y location of first corner. This is on a scale of 0 - 1. For example if we have a 500 x 500 image ".5 .5" corresponds to (250,250)
 3. Next you have two more numbers that represent the length in the x or y direction from 0 - 1
+
+
+Yo Pete and Pat 
